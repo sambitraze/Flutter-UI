@@ -21,7 +21,7 @@ class FadeAnimation extends StatelessWidget {
         ),
       ],
     );
-    return ControlledAnimation(
+    return ControlledAnimation(     
       delay: Duration(milliseconds: (500 * delay).round()),
       duration: tween.duration,
       tween: tween,
